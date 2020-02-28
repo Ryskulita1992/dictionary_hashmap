@@ -28,7 +28,6 @@ public class Main {
                 String newKey = values[i];
                 List<String> val = new ArrayList<>(values.length);      //length will be the same length of values
                 val.addAll(Arrays.asList(values));
-                val.addAll(Arrays.asList(values));
                 val.remove(newKey);
                 val.add(key);
                 String[] newVal = new String[val.size()];
